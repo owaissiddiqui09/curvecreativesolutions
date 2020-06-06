@@ -1,0 +1,444 @@
+.navbar{
+    padding: 2px 50px 2px 50px !important;
+}
+.nav-link{
+    color: white !important;
+    font-family: 'Century Gothic';
+}
+.nav-link:hover, .active>.nav-link{
+    color: #8dc63f !important;
+    font-weight: bold;
+}
+.nav-link:hover{
+    font-weight: bold;
+}
+.navbar-toggler-icon{
+    color: white !important;
+}
+.orderbtn{
+    color: #8dc63f !important;
+    border: 1px solid #8dc63f !important;
+    font-family: 'Century Gothic';
+    position: relative;
+    
+}
+.orderbten{
+    color: white !important;
+    border: 2px solid white !important;
+    font-family: 'Century Gothic';
+    position: relative;
+    
+}
+.ffm{
+    font-family: 'Century Gothic' !important;
+}
+.loginform{
+    background-color: black; 
+    border-radius: 50px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 10px ;
+  font-size: 30px !important;
+  width: 50px !important;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%
+  
+}
+.fa-facebook:hover ,.fa-twitter:hover , .fa-instagram:hover, .fa-youtube:hover{
+  opacity: 0.7 !important;
+  
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  font-size: 30px !important;
+  width: 50px !important;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%
+}
+
+
+
+.fa-youtube {
+  background: #bb0000;
+  /* color: #bb0000 !important; */
+  font-size: 30px !important;
+  width: 50px !important;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%
+}
+
+.fa-instagram {
+  /* background: #125688; */
+  
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  color: white;
+  font-size: 30px !important;
+  width: 50px !important;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%
+}
+.orderbtn:hover, .odhactive {
+    color: white !important;
+    border: 1px solid #8dc63f !important;
+    background-color: #8dc63f !important;
+    font-weight: bold !important;
+}
+.orderbten:hover{
+    color: #8dc63f !important;
+    border: 2px solid white !important;
+    background-color: white !important;
+    font-weight: bold;
+}
+.fa-user-circle{
+    color: white !important;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    position: relative;
+    width: 1em;
+    font-size: 4vw;
+    color: #8dc63f;
+    cursor: pointer
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+.footer{
+    background-color: black;  
+    padding: 10px 100px 10px 100px !important;
+}
+.social-footer{
+    /* display: flex; */
+    font-size: x-large;
+    display: flex;
+    justify-content: around-space;
+    margin-left: 4px;
+
+}
+@media screen and (max-width: 800px) {
+    .footer {
+      align-content: center !important;
+    }
+  }
+
+  
+}
+
+/* .fa {
+  padding: 20px !important;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+} */
+
+.socialll>.fa:hover {
+    opacity: 0.7 !important;
+}
+
+
+
+.{
+    
+}
+.social-footer:link{
+    text-decoration: none;
+    color: yellow !important;
+}
+.social-footer>fa{
+    font-size: x-large !important;
+}
+.bodytext{
+    margin: 0px 100px 20px 100px;
+    padding: 0px 400px 0px 400px;
+    text-align: justify;
+    color: black;
+    /* font-family: sans-serif; */
+    font size: 14px;
+    position: relative;
+    animation: myfirst 2s 1;
+  animation-direction: left;
+  }
+  @keyframes myfirst {
+    0%   { left: 4000px; top: 0px;}
+    100%  { left: 0px; top: 0px;}
+  }
+  .anim{
+    position: relative;
+    animation: myfirst 2s 1;
+  animation-direction: left;
+  }
+  .animx{
+    position: relative;
+    animation: myfirstr 1s 1;
+  animation-direction: right;
+  }
+  @keyframes myfirstr {
+    0%   { left: 0px; top: -4000px;}
+    100%  { left: 0px; top: 0px;}
+  }
+
+
+
+  /* * {
+    box-sizing: border-box;
+  } */
+  
+  .port {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .port>.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .port>h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column1 , .row > .column2, .row > .column3 {
+    padding: 8px;
+  }
+  .column31{
+    padding: 12px;
+    margin: 10px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column1 {
+    float: left;
+    width: 25%;
+  }
+  .column2 {
+    float: left;
+    width: 50%;
+  }
+  .column3 {
+    float: left;
+    width: 33.3%;
+  }
+  .column31 {
+    border: 2px solid white;
+    width: 24%;
+  }
+  
+
+
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column1 {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .column2, .column3, .column31 {
+      width: 100%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    hind {
+      width: 100%;
+      padding: 0px !important;
+    }
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(59, 56, 56);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+
+  .hind {
+    font-family: 'Century Gothic' !important;
+    margin: 0;
+  }
+  
+  /* * {
+    box-sizing: border-box;
+  } */
+  .hind>img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .hcontainer {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 10%;
+    margin-top: -10%;
+    margin-right: 50%;
+    color: white;
+    font-family: 'Century Gothic' !important;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color:white;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    font-family: 'Century Gothic' !important;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #8dc63f;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .hrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .hcolumn {
+    float: left;
+    width: 25%;
+  }
+  @media screen and (max-width: 600px) {
+    .hcolumn {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .hcontainer {
+      width: 100% !important;
+      padding: 0px 0px 0px 0px !important;
+    }
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .hactive,
+  .demo:hover {
+    opacity: 1;
+  }
